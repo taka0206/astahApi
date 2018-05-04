@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="jp.co.taka0206.hello.actionSet">
+         <menu
+               id="hello"
+               label="%menu_group"
+               path="tool/hello">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="jp.co.taka0206.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/hello/"
+               id="hello">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
